@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="workwise.css">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <label class="logo"> <i class="fas fa-briefcase"></i> workWisE.</label>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                             viewBox="0 -960 960 960" width="24px" fill="#e8eaed"> 
+                            <path
+                              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /> 
+                        </svg></a></li>
+                <li> <a href="code.html">coding</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="job1.html"> Jobs</a></li>
+                <li><a href="register.html" class="btn">Register</a></li> 
+                <!-- <li><a href="">client</a></li> -->
+                <!-- <li><button class="btn">Register</button></li> -->
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><a href="code.html">Coding</a></li>
+                <li class="hideOnMobile"><a href="login.html">Login</a></li>
+                <li class="hideOnMobile"><a href="job1.html"> Jobs</a></li>
+                <li class="hideOnMobile"><a href="register.html" class="btn">Register</a></li>
+                <li class="menu-button" onclick=showSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            <!-- height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"> -->
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+
+
+        }
+    </script>
+    &emsp;
+
+
+    <div class="main">
+        <h1 class="main"> Unlock and Explore your, <div> Dream Career with <span> workWise.</span></h1> </div>
+       <h3 class="p"> Discover opportunities,Connect with Employers and Enhance your skills <div class="p"> take the Next Step Towards a Fullfilling Work Life!  </div></h3>
+    </div>
+
+    <button class="upload-btn"> <a href="register.html">Sign Up</a></button>
+
+    
+
+
+    <div class="text-box">
+        <p>Employers,your next hire </p> &emsp; &emsp;
+        <a href="">Post a job</a>
+    </div>
+    <div>
+        <section class="category">
+            <h1 class="heading">job categories</h1>
+            <div class="box-container">
+                <a href="web.html" class="box">
+                    <i class="fas fa-code"></i>
+                    <div>
+                        <h3>web designer</h3>
+                        <span>skill based</span>
+                    </div>
+                </a>
+                <a href="web.html" class="box">
+                    <i class="fas fa-pen"></i>
+                    <div>
+                        <h3>Development</h3>
+                        <span>skill based</span>
+                    </div>
+                </a>
+                <a href="" class="box">
+                    <i class="fas fa-chalkboard-user"></i>
+                    <div>
+                        <h3>Coder & Developer</h3>
+                        <span>skill based</span>
+                    </div>
+                </a>
+                <a href="blog.html" class="box">
+                    <i class="fas fa-hand-holding-dollar"></i>
+                    <div>
+                        <h3>Blog writer</h3>
+                        <span>skill based</span>
+                    </div>
+                </a>
+                <a href="web.html" class="box">
+                    <i class="fas fa-person-digging"></i>
+                    <div>
+                        <h3>Designer</h3>
+                        <span>skill based</span>
+                    </div>
+                </a>
+                <a href="blog.html" class="box">
+                    <i class="fa-solid fa-copy"></i>
+                    <div>
+                        <h3>Content writer</h3>
+                        <span>skill based</span>
+                    </div>
+                </a>
+                <a href="" class="box">
+                    <i class="fa-solid fa-plane-departure"></i>
+                    <div>
+                        <h3>Teacher</h3>
+                        <span>skill based</span>
+                    </div>
+                </a>
+                <a href="" class="box">
+                    <i class="fa-solid fa-map"></i>
+                    <div>
+                        <h3>Part Time job</h3>
+                        <span> on skill based</span>
+                    </div>
+
+                </a>
+                <a href="" class="box">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <div>
+                        <h3>Freelancer</h3>
+                        <span> on skill based</span>
+                    </div>
+
+                </a>
+                <a href="web.html" class="box">
+                    <i class="fa-solid fa-palette"></i>
+                    <div>
+                        <h3>software developer</h3>
+                        <span> on skill based</span>
+                    </div>
+
+                </a>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>follow us</h3>
+                <a href=""> <i class="fab fa-instagram"> instagram</i></a>
+                <a href=""> <i class="fab fa-twitter"> twitter</a>
+                <a href=""> <i class="fab fa-linkedin">linkedin </a>
+            </div>
+        </section>
+    </footer>
+    <script src="js/sc"></script>
+
+
+</body>
+
+</html>
